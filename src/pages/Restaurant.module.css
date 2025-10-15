@@ -1,0 +1,53 @@
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.headerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.headerContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.headerContent h1 {
+    margin: 0 0 0.25rem;
+}
+
+.headerContent p {
+    margin: 0;
+}
+
+.menu {
+    padding: 0 2rem;
+}
+
+.menu h2 {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+}

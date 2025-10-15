@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.name {
+    margin: 0 0 0.25rem;
+}
+
+.description {
+    margin: 0 0 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.price {
+    margin: 0;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.addButton {
+    background-color: transparent;
+    border: 2px solid #27ae60;
+    color: #27ae60;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.addButton:hover {
+    background-color: #27ae60;
+    color: #fff;
+}
