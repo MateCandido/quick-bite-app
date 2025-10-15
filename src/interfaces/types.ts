@@ -1,4 +1,3 @@
-// O contrato para um item do menu
 export interface IMenuItem {
   id: number;
   name: string;
@@ -7,7 +6,6 @@ export interface IMenuItem {
   image: string;
 }
 
-// O contrato para um restaurante
 export interface IRestaurant {
   id: number;
   name: string;
